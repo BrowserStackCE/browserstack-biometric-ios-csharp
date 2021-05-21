@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{E2C17B7D-D2E4-46C4-B1B9-2DD81AD74E04}|Default">
+  <MonoDevelop.Ide.ItemProperties.browserstack-biometric-ios-csharp PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument=".gitignore">
+    <Files>
+      <File FileName="Program.cs" Line="50" Column="12" />
+      <File FileName="packages.config" Line="1" Column="1" />
+      <File FileName=".gitignore" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="browserstack-biometric-ios-csharp" expanded="True">
+            <Node name="browserstack-biometric-ios-csharp" expanded="True">
+              <Node name=".gitignore" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

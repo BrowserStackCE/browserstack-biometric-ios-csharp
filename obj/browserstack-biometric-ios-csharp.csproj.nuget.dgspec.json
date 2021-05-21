@@ -1,0 +1,82 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/mohammed/biometric-appium-c#/csharp-appium-first-browserstack-ios/browserstack-biometric-ios-csharp/browserstack-biometric-ios-csharp.csproj": {}
+  },
+  "projects": {
+    "/Users/mohammed/biometric-appium-c#/csharp-appium-first-browserstack-ios/browserstack-biometric-ios-csharp/browserstack-biometric-ios-csharp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mohammed/biometric-appium-c#/csharp-appium-first-browserstack-ios/browserstack-biometric-ios-csharp/browserstack-biometric-ios-csharp.csproj",
+        "projectName": "browserstack-biometric-ios-csharp",
+        "projectPath": "/Users/mohammed/biometric-appium-c#/csharp-appium-first-browserstack-ios/browserstack-biometric-ios-csharp/browserstack-biometric-ios-csharp.csproj",
+        "packagesPath": "/Users/mohammed/.nuget/packages/",
+        "outputPath": "/Users/mohammed/biometric-appium-c#/csharp-appium-first-browserstack-ios/browserstack-biometric-ios-csharp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mohammed/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Appium.WebDriver": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+            "Castle.Core": {
+              "target": "Package",
+              "version": "[4.4.1, )"
+            },
+            "DotNetSeleniumExtras.WaitHelpers": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
