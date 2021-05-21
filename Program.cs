@@ -43,11 +43,7 @@ namespace browserstack_biometric_ios_csharp
             IOSDriver<IOSElement> driver = new IOSDriver<IOSElement>(
                 new Uri("http://hub-cloud.browserstack.com/wd/hub"), caps);
 
-            //IOSElement textOutput = (IOSElement)new WebDriverWait(driver, TimeSpan.FromSeconds(30)).Until(
-            //    SeleniumExtras.WaitHelpers.ExpectedConditions.ElementToBeClickable(MobileBy.AccessibilityId("Text Output"))
-            //);
-
-            // Assert.AreEqual(textOutput.Text, "hello@browserstack.com");
+        
             IOSElement LogInButton = (IOSElement)new WebDriverWait(driver, TimeSpan.FromSeconds(30)).Until(
                 SeleniumExtras.WaitHelpers.ExpectedConditions.ElementToBeClickable(MobileBy.Name("Log In"))
             );
