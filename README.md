@@ -20,7 +20,7 @@ This repository demonstrates how to test the Biometric feature using Appium C# o
     ```
     -  Update `bs://<app_url>` in [`Program.cs`](Program.cs) file with the obtained app URL after the previous step.
     -  We will enable biometric feature in Appium session by providing "browserstack.enableBiometric:true" in desired capabilities, refer [`Program.cs`](Program.cs)
-    -  Lastly, in the session when biometric alert appears, use BrowserStack’s biometric mobile command which is a javascript executor to make authentication success(by passing "pass" as argument) or fail (by passing "fail" as argument), refer [`Program.cs`]
+    -  Lastly, in the session when biometric alert appears, use BrowserStack’s biometric mobile command which is a javascript executor to make authentication success(by passing "pass" as argument) or fail (by passing "fail" as argument), refer [`Program.cs`](Program.cs)
 
 
 2. Running the test
