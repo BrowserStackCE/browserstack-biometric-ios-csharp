@@ -1,6 +1,6 @@
-# browserstack-camera-injection-ios-csharp
+# browserstack-biometric-ios-csharp
 
-This repository demonstrates how to test the Camera Injection feature using Appium C# on BrowserStack App Automate.
+This repository demonstrates how to test the Biometric feature using Appium C# on BrowserStack App Automate.
 
 ### Requirements
 
