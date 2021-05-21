@@ -19,6 +19,7 @@ This repository demonstrates how to test the Biometric feature using Appium C# o
         export BROWSERSTACK_ACCESS_KEY=<browserstack_access_key>
     ```
     -  Update `bs://<app_url>` in [`Program.cs`](Program.cs) file with the obtained app URL after the previous step.
+    -  We will unable biometric feature in Appium session by providing "browserstack.enableBiometric:true" in desired capabilities.
 
 
 2. Running the test
