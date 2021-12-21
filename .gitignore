@@ -17,3 +17,6 @@ tarballs/
 test-results/
 Thumbs.db
 .vscode
+.vs
+bin
+obj
